@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA9EE57A18797AF800995DF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EE57918797AF800995DF2 /* Foundation.framework */; };
+		EA9EE57C18797AF800995DF2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EE57B18797AF800995DF2 /* CoreGraphics.framework */; };
+		EA9EE57E18797AF800995DF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EE57D18797AF800995DF2 /* UIKit.framework */; };
+		EA9EE58418797AF800995DF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA9EE58218797AF800995DF2 /* InfoPlist.strings */; };
+		EA9EE58618797AF800995DF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9EE58518797AF800995DF2 /* main.m */; };
+		EA9EE58A18797AF800995DF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9EE58918797AF800995DF2 /* AppDelegate.m */; };
+		EA9EE58D18797AF800995DF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9EE58B18797AF800995DF2 /* Main.storyboard */; };
+		EA9EE59018797AF800995DF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9EE58F18797AF800995DF2 /* ViewController.m */; };
+		EA9EE59218797AF800995DF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9EE59118797AF800995DF2 /* Images.xcassets */; };
+		EA9EE59918797AF900995DF2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EE59818797AF900995DF2 /* XCTest.framework */; };
+		EA9EE59A18797AF900995DF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EE57918797AF800995DF2 /* Foundation.framework */; };
+		EA9EE59B18797AF900995DF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EE57D18797AF800995DF2 /* UIKit.framework */; };
+		EA9EE5A318797AF900995DF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA9EE5A118797AF900995DF2 /* InfoPlist.strings */; };
+		EA9EE5A518797AF900995DF2 /* CheckNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9EE5A418797AF900995DF2 /* CheckNetTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA9EE59C18797AF900995DF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA9EE56E18797AF800995DF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9EE57518797AF800995DF2;
+			remoteInfo = CheckNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA9EE57618797AF800995DF2 /* CheckNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9EE57918797AF800995DF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA9EE57B18797AF800995DF2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA9EE57D18797AF800995DF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA9EE58118797AF800995DF2 /* CheckNet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckNet-Info.plist"; sourceTree = "<group>"; };
+		EA9EE58318797AF800995DF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA9EE58518797AF800995DF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA9EE58718797AF800995DF2 /* CheckNet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheckNet-Prefix.pch"; sourceTree = "<group>"; };
+		EA9EE58818797AF800995DF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA9EE58918797AF800995DF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA9EE58C18797AF800995DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA9EE58E18797AF800995DF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA9EE58F18797AF800995DF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA9EE59118797AF800995DF2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA9EE59718797AF800995DF2 /* CheckNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9EE59818797AF900995DF2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA9EE5A018797AF900995DF2 /* CheckNetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckNetTests-Info.plist"; sourceTree = "<group>"; };
+		EA9EE5A218797AF900995DF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA9EE5A418797AF900995DF2 /* CheckNetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckNetTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA9EE57318797AF800995DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9EE57C18797AF800995DF2 /* CoreGraphics.framework in Frameworks */,
+				EA9EE57E18797AF800995DF2 /* UIKit.framework in Frameworks */,
+				EA9EE57A18797AF800995DF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9EE59418797AF800995DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9EE59918797AF900995DF2 /* XCTest.framework in Frameworks */,
+				EA9EE59B18797AF900995DF2 /* UIKit.framework in Frameworks */,
+				EA9EE59A18797AF900995DF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA9EE56D18797AF800995DF2 = {
+			isa = PBXGroup;
+			children = (
+				EA9EE57F18797AF800995DF2 /* CheckNet */,
+				EA9EE59E18797AF900995DF2 /* CheckNetTests */,
+				EA9EE57818797AF800995DF2 /* Frameworks */,
+				EA9EE57718797AF800995DF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA9EE57718797AF800995DF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA9EE57618797AF800995DF2 /* CheckNet.app */,
+				EA9EE59718797AF800995DF2 /* CheckNetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA9EE57818797AF800995DF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA9EE57918797AF800995DF2 /* Foundation.framework */,
+				EA9EE57B18797AF800995DF2 /* CoreGraphics.framework */,
+				EA9EE57D18797AF800995DF2 /* UIKit.framework */,
+				EA9EE59818797AF900995DF2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA9EE57F18797AF800995DF2 /* CheckNet */ = {
+			isa = PBXGroup;
+			children = (
+				EA9EE58818797AF800995DF2 /* AppDelegate.h */,
+				EA9EE58918797AF800995DF2 /* AppDelegate.m */,
+				EA9EE58B18797AF800995DF2 /* Main.storyboard */,
+				EA9EE58E18797AF800995DF2 /* ViewController.h */,
+				EA9EE58F18797AF800995DF2 /* ViewController.m */,
+				EA9EE59118797AF800995DF2 /* Images.xcassets */,
+				EA9EE58018797AF800995DF2 /* Supporting Files */,
+			);
+			path = CheckNet;
+			sourceTree = "<group>";
+		};
+		EA9EE58018797AF800995DF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA9EE58118797AF800995DF2 /* CheckNet-Info.plist */,
+				EA9EE58218797AF800995DF2 /* InfoPlist.strings */,
+				EA9EE58518797AF800995DF2 /* main.m */,
+				EA9EE58718797AF800995DF2 /* CheckNet-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA9EE59E18797AF900995DF2 /* CheckNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA9EE5A418797AF900995DF2 /* CheckNetTests.m */,
+				EA9EE59F18797AF900995DF2 /* Supporting Files */,
+			);
+			path = CheckNetTests;
+			sourceTree = "<group>";
+		};
+		EA9EE59F18797AF900995DF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA9EE5A018797AF900995DF2 /* CheckNetTests-Info.plist */,
+				EA9EE5A118797AF900995DF2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA9EE57518797AF800995DF2 /* CheckNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9EE5A818797AF900995DF2 /* Build configuration list for PBXNativeTarget "CheckNet" */;
+			buildPhases = (
+				EA9EE57218797AF800995DF2 /* Sources */,
+				EA9EE57318797AF800995DF2 /* Frameworks */,
+				EA9EE57418797AF800995DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckNet;
+			productName = CheckNet;
+			productReference = EA9EE57618797AF800995DF2 /* CheckNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA9EE59618797AF800995DF2 /* CheckNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9EE5AB18797AF900995DF2 /* Build configuration list for PBXNativeTarget "CheckNetTests" */;
+			buildPhases = (
+				EA9EE59318797AF800995DF2 /* Sources */,
+				EA9EE59418797AF800995DF2 /* Frameworks */,
+				EA9EE59518797AF800995DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA9EE59D18797AF900995DF2 /* PBXTargetDependency */,
+			);
+			name = CheckNetTests;
+			productName = CheckNetTests;
+			productReference = EA9EE59718797AF800995DF2 /* CheckNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA9EE56E18797AF800995DF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Tony;
+				TargetAttributes = {
+					EA9EE59618797AF800995DF2 = {
+						TestTargetID = EA9EE57518797AF800995DF2;
+					};
+				};
+			};
+			buildConfigurationList = EA9EE57118797AF800995DF2 /* Build configuration list for PBXProject "CheckNet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA9EE56D18797AF800995DF2;
+			productRefGroup = EA9EE57718797AF800995DF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA9EE57518797AF800995DF2 /* CheckNet */,
+				EA9EE59618797AF800995DF2 /* CheckNetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA9EE57418797AF800995DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9EE59218797AF800995DF2 /* Images.xcassets in Resources */,
+				EA9EE58418797AF800995DF2 /* InfoPlist.strings in Resources */,
+				EA9EE58D18797AF800995DF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9EE59518797AF800995DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9EE5A318797AF900995DF2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA9EE57218797AF800995DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9EE59018797AF800995DF2 /* ViewController.m in Sources */,
+				EA9EE58A18797AF800995DF2 /* AppDelegate.m in Sources */,
+				EA9EE58618797AF800995DF2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9EE59318797AF800995DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9EE5A518797AF900995DF2 /* CheckNetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA9EE59D18797AF900995DF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA9EE57518797AF800995DF2 /* CheckNet */;
+			targetProxy = EA9EE59C18797AF900995DF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA9EE58218797AF800995DF2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9EE58318797AF800995DF2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA9EE58B18797AF800995DF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9EE58C18797AF800995DF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA9EE5A118797AF900995DF2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9EE5A218797AF900995DF2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA9EE5A618797AF900995DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA9EE5A718797AF900995DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA9EE5A918797AF900995DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckNet/CheckNet-Prefix.pch";
+				INFOPLIST_FILE = "CheckNet/CheckNet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA9EE5AA18797AF900995DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckNet/CheckNet-Prefix.pch";
+				INFOPLIST_FILE = "CheckNet/CheckNet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA9EE5AC18797AF900995DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CheckNet.app/CheckNet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckNet/CheckNet-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CheckNetTests/CheckNetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EA9EE5AD18797AF900995DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CheckNet.app/CheckNet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckNet/CheckNet-Prefix.pch";
+				INFOPLIST_FILE = "CheckNetTests/CheckNetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA9EE57118797AF800995DF2 /* Build configuration list for PBXProject "CheckNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9EE5A618797AF900995DF2 /* Debug */,
+				EA9EE5A718797AF900995DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9EE5A818797AF900995DF2 /* Build configuration list for PBXNativeTarget "CheckNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9EE5A918797AF900995DF2 /* Debug */,
+				EA9EE5AA18797AF900995DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA9EE5AB18797AF900995DF2 /* Build configuration list for PBXNativeTarget "CheckNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9EE5AC18797AF900995DF2 /* Debug */,
+				EA9EE5AD18797AF900995DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA9EE56E18797AF800995DF2 /* Project object */;
+}

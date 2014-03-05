@@ -13,12 +13,38 @@
 @end
 
 @implementation ViewController
+@synthesize label,hostReachability,wifiReachability,internetReachability;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	//[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
 }
+
+//- (void) reachabilityChanged:(NSNotification *)note
+//{
+//	Reachability* curReach = [note object];
+//	NSParameterAssert([curReach isKindOfClass:[Reachability class]]);
+//	[self updateInterfaceWithReachability:curReach];
+//}
+//
+//- (void)updateInterfaceWithReachability:(Reachability *)reachability
+//{
+//    if (reachability == self.hostReachability)
+//	{
+//		
+//    }
+//    
+//	if (reachability == self.internetReachability)
+//	{
+//		
+//	}
+//    
+//	if (reachability == self.wifiReachability)
+//	{
+//		
+//	}
+//}
 
 - (void)didReceiveMemoryWarning
 {

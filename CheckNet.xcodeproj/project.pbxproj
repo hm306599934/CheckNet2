@@ -21,6 +21,7 @@
 		EA9EE59B18797AF900995DF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EE57D18797AF800995DF2 /* UIKit.framework */; };
 		EA9EE5A318797AF900995DF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA9EE5A118797AF900995DF2 /* InfoPlist.strings */; };
 		EA9EE5A518797AF900995DF2 /* CheckNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9EE5A418797AF900995DF2 /* CheckNetTests.m */; };
+		EA9EE5B018797C7D00995DF2 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9EE5AF18797C7D00995DF2 /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EA9EE5A018797AF900995DF2 /* CheckNetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckNetTests-Info.plist"; sourceTree = "<group>"; };
 		EA9EE5A218797AF900995DF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA9EE5A418797AF900995DF2 /* CheckNetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckNetTests.m; sourceTree = "<group>"; };
+		EA9EE5AE18797C7D00995DF2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		EA9EE5AF18797C7D00995DF2 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		EA9EE57F18797AF800995DF2 /* CheckNet */ = {
 			isa = PBXGroup;
 			children = (
+				EA9EE5AE18797C7D00995DF2 /* Reachability.h */,
+				EA9EE5AF18797C7D00995DF2 /* Reachability.m */,
 				EA9EE58818797AF800995DF2 /* AppDelegate.h */,
 				EA9EE58918797AF800995DF2 /* AppDelegate.m */,
 				EA9EE58B18797AF800995DF2 /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			files = (
 				EA9EE59018797AF800995DF2 /* ViewController.m in Sources */,
 				EA9EE58A18797AF800995DF2 /* AppDelegate.m in Sources */,
+				EA9EE5B018797C7D00995DF2 /* Reachability.m in Sources */,
 				EA9EE58618797AF800995DF2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +466,7 @@
 				EA9EE5AA18797AF900995DF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA9EE5AB18797AF900995DF2 /* Build configuration list for PBXNativeTarget "CheckNetTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				EA9EE5AD18797AF900995DF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
